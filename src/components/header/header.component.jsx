@@ -29,7 +29,7 @@ const Header = () => (
                     Music
             </Link>
             </Nav.Link>
-            <Nav.Link className='options'>
+            {/* <Nav.Link className='options'>
                 <Link className='option' to='/store'>
                     Store
             </Link>
@@ -43,7 +43,7 @@ const Header = () => (
                 <Link className='option' to='/contact'>
                     Contact
             </Link>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link>
                 <Row>
                     <ul className='mobileSocials'>
