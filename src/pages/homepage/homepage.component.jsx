@@ -8,11 +8,11 @@ const HomePage = () => (
     <Container fluid sm={12} md={8} lg={8} className='homeContainer'>
         <ReactPlayer
             className='player'
-            url='https://soundcloud.com/blkgoldmusic/under-control-blkgold-remix'
+            url='https://soundcloud.com/blkgoldmusic/crwth-ultimate-blkgold-remix'
             width='80%'
             height='80%'
         />
-        <div className='trackInfo'>
+        {/* <div className='trackInfo'>
             <h3>
                 <a
                     href='https://www.toneden.io/blkgoldmusic/post/under-control-blkgold-remix'
@@ -20,7 +20,7 @@ const HomePage = () => (
                     target='_blank'
                 >Free Download</a>
             </h3>
-        </div>
+        </div> */}
     </Container>
 )
 
