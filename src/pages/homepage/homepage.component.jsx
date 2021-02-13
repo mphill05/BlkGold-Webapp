@@ -8,7 +8,7 @@ const HomePage = () => (
     <Container fluid sm={12} md={8} lg={8} className='homeContainer'>
         <ReactPlayer
             className='player'
-            url='https://soundcloud.com/blkgoldmusic/crwth-ultimate-blkgold-remix'
+            url='https://soundcloud.com/blkgoldmusic/said-x-glitter-soda-under-control-blkgold-remix'
             width='80%'
             height='80%'
         />

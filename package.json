@@ -1,6 +1,5 @@
 {
   "name": "blkgold-webapp",
-  "homepage": "http://MPhill05.github.io/BlkGold-Webapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

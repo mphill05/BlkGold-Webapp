@@ -7,7 +7,7 @@ import CoverArt4 from '../../assets/crwth.jpg';
 import './music.styles.scss';
 import { Container, Col, Row, Modal, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import { faBandcamp, faSoundcloud, faSpotify, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 class MusicPage extends React.Component {
@@ -36,17 +36,13 @@ class MusicPage extends React.Component {
             modalTitle: 'Under Control Remix',
             modalCoverArt: CoverArt1,
             infoContent: [
-                <li><a href="https://soundcloud.com/blkgoldmusic/under-control-blkgold-remix"
+                <li><a href="https://soundcloud.com/blkgoldmusic/said-x-glitter-soda-under-control-blkgold-remix"
                     rel="noopener noreferrer" target="_blank">
                     <FontAwesomeIcon icon={faSoundcloud} size='3x' />
                 </a></li>,
                 <li><a href="https://youtu.be/TX1aGfhgjfA"
                     rel="noopener noreferrer" target="_blank">
                     <FontAwesomeIcon icon={faYoutube} size='3x' />
-                </a></li>,
-                <li><a href="https://www.toneden.io/blkgoldmusic/post/under-control-blkgold-remix"
-                    rel="noopener noreferrer" target="_blank">
-                    <FontAwesomeIcon icon={faDownload} size='3x' />
                 </a></li>
             ]
         })
@@ -88,7 +84,7 @@ class MusicPage extends React.Component {
                     rel="noopener noreferrer" target="_blank">
                     <FontAwesomeIcon icon={faSoundcloud} size='3x' />
                 </a></li>,
-                <li><a href="ripplestowaves.bandcamp.com/releases"
+                <li><a href="http://ripplestowaves.bandcamp.com/releases"
                     rel="noopener noreferrer" target="_blank">
                     <FontAwesomeIcon icon={faBandcamp} size='3x' />
                 </a></li>,
@@ -102,7 +98,11 @@ class MusicPage extends React.Component {
             modalTitle: 'Ultimate',
             modalCoverArt: CoverArt4,
             infoContent: [
-                <li><a href="https://soundcloud.com/blkgoldmusic/ultimate-blkgold-remix"
+                <li><a href="https://open.spotify.com/album/56NJFT4FRqP04hM85vU8pF?si=n3Jgg_7-RS2Q4vKUnOf_TA"
+                    rel="noopener noreferrer" target="_blank">
+                    <FontAwesomeIcon icon={faSpotify} size='3x' />
+                </a></li>,
+                <li><a href="https://soundcloud.com/blkgoldmusic/crwth-ultimate-blkgold-remix"
                     rel="noopener noreferrer" target="_blank">
                     <FontAwesomeIcon icon={faSoundcloud} size='3x' />
                 </a></li>,
