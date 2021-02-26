@@ -30,21 +30,16 @@ const Header = () => (
                     Music
             </Link>
             </Nav.Link>
-            {/* <Nav.Link className='options'>
+            <Nav.Link className='options'>
                 <Link className='option' to='/store'>
                     Store
-            </Link>
-            </Nav.Link>
-            <Nav.Link className='options'>
-                <Link className='option' to='/tour'>
-                    Tour
             </Link>
             </Nav.Link>
             <Nav.Link className='options'>
                 <Link className='option' to='/contact'>
                     Contact
             </Link>
-            </Nav.Link> */}
+            </Nav.Link>
             <ul className='mobileSocials'>
                 <li><a href="https://open.spotify.com/artist/233z0IfLJLQZJwGeaZXvZR" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faSpotify} /></a></li>
                 <li><a href="https://music.apple.com/us/artist/blkgold/1497838952" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faApple} /></a></li>

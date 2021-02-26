@@ -3,8 +3,12 @@ import React from 'react';
 import './contact.styles.scss';
 
 const ContactPage = () => (
-    <div>
-        Contact Page
+    <div className='contactContainer'>
+        <div className='titleContainer'>
+            <strong>CONTACT</strong>
+            <hr />
+        </div>
+        <h1>COMING SOON!</h1>
     </div>
 )
 

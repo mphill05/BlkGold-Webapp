@@ -1,0 +1,52 @@
+.storeContainer {
+  background-color: rgba($color: #000000, $alpha: 0.7);
+  height: 85vh;
+  width: 80%;
+  padding-top: 50px;
+  margin: auto;
+  overflow: scroll;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.storeContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.titleContainer {
+  top: 0;
+}
+
+strong {
+  margin-left: 1em;
+  color: #d4af37;
+}
+
+hr {
+  height: 1px;
+  background-color: #d4af37;
+  border: none;
+}
+
+h1 {
+    text-align: center;
+    color: #d4af37;
+}
+
+@media only screen and (min-width: 700px) {
+  .storeContainer {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .storeContainer {
+    width: 95%;
+    padding-top: 150px;
+  }
+}
