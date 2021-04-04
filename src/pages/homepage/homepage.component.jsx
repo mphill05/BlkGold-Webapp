@@ -13,15 +13,6 @@ const HomePage = () => (
             width='80%'
             height='80%'
         />
-        {/* <div className='trackInfo'>
-            <h3>
-                <a
-                    href='https://www.toneden.io/blkgoldmusic/post/under-control-blkgold-remix'
-                    rel="noopener noreferrer"
-                    target='_blank'
-                >Free Download</a>
-            </h3>
-        </div> */}
     </Container>
 )
 
