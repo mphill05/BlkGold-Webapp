@@ -6,8 +6,11 @@
   margin: auto;
 }
 
-.player {
+.mainPageCoverArt {
+  display: block;
   margin: auto;
+  height: 85%;
+  width: 90%;
 }
 
 .trackInfo {
@@ -34,7 +37,11 @@
     padding-top: 150px;
   }
 
-  .player {
+  .mainPageCoverArt {
+    height: 60%;
+  }
+
+  .mainPageCoverArt {
     width: 100%;
   }
 }

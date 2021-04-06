@@ -1,18 +1,13 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+import CoverArt from '../../assets/DoomsdayCoverArt.png';
 
 import './homepage.styles.scss';
 import { Container } from 'react-bootstrap';
 
 const HomePage = () => (
-    <Container fluid sm={12} md={8} lg={8} className='homeContainer'>
-        <ReactPlayer
-            title='Most recent song'
-            className='player'
-            url='https://soundcloud.com/blkgoldmusic/said-x-glitter-soda-under-control-blkgold-remix'
-            width='80%'
-            height='80%'
-        />
+    <Container fluid sm={12} md={12} lg={12} className='homeContainer'>
+        <img src={CoverArt} alt='Cover Art' className='mainPageCoverArt' />
+        <h1>5.10.21</h1>
     </Container>
 )
 
