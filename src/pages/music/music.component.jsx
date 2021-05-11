@@ -1,8 +1,9 @@
 import React from "react";
-import CoverArt1 from "../../assets/ucRemixCoverArt.jpg";
-import CoverArt2 from "../../assets/SandboxCoverArt.jpg";
-import CoverArt3 from "../../assets/atreides final FRONT.png";
-import CoverArt4 from "../../assets/crwth.jpg";
+import CoverArt1 from "../../assets/crwth.jpg";
+import CoverArt2 from "../../assets/atreides final FRONT.png";
+import CoverArt3 from "../../assets/SandboxCoverArt.jpg";
+import CoverArt4 from "../../assets/ucRemixCoverArt.jpg";
+import CoverArt5 from "../../assets/DoomsdayCoverArt.png";
 
 import "./music.styles.scss";
 import { Container, Col, Row, Modal, Button } from "react-bootstrap";
@@ -38,25 +39,25 @@ class MusicPage extends React.Component {
   handleModal1() {
     this.setState({
       show: !this.state.show,
-      modalTitle: "Under Control Remix",
+      modalTitle: "Ultimate",
       modalCoverArt: CoverArt1,
       infoContent: [
         <li>
           <a
-            href="https://soundcloud.com/blkgoldmusic/said-x-glitter-soda-under-control-blkgold-remix"
+            href="https://open.spotify.com/album/56NJFT4FRqP04hM85vU8pF?si=n3Jgg_7-RS2Q4vKUnOf_TA"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
+            <FontAwesomeIcon icon={faSpotify} size="3x" />
           </a>
         </li>,
         <li>
           <a
-            href="https://youtu.be/TX1aGfhgjfA"
+            href="https://soundcloud.com/blkgoldmusic/crwth-ultimate-blkgold-remix"
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faYoutube} size="3x" />
+            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
           </a>
         </li>,
       ],
@@ -66,45 +67,8 @@ class MusicPage extends React.Component {
   handleModal2() {
     this.setState({
       show: !this.state.show,
-      modalTitle: "Sandbox",
-      modalCoverArt: CoverArt2,
-      infoContent: [
-        <li>
-          <a
-            href="https://open.spotify.com/track/2WesyiDwZiMgsxYM8C6Fdp"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faSpotify} size="3x" />
-          </a>
-        </li>,
-        <li>
-          <a
-            href="https://soundcloud.com/blkgoldmusic/sandbox"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
-          </a>
-        </li>,
-        <li>
-          <a
-            href="https://youtu.be/KePzJu_h-xI"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faYoutube} size="3x" />
-          </a>
-        </li>,
-      ],
-    });
-  }
-
-  handleModal3() {
-    this.setState({
-      show: !this.state.show,
       modalTitle: "JRNY",
-      modalCoverArt: CoverArt3,
+      modalCoverArt: CoverArt2,
       infoContent: [
         <li>
           <a
@@ -137,15 +101,15 @@ class MusicPage extends React.Component {
     });
   }
 
-  handleModal4() {
+  handleModal3() {
     this.setState({
       show: !this.state.show,
-      modalTitle: "Ultimate",
-      modalCoverArt: CoverArt4,
+      modalTitle: "Sandbox",
+      modalCoverArt: CoverArt3,
       infoContent: [
         <li>
           <a
-            href="https://open.spotify.com/album/56NJFT4FRqP04hM85vU8pF?si=n3Jgg_7-RS2Q4vKUnOf_TA"
+            href="https://open.spotify.com/track/2WesyiDwZiMgsxYM8C6Fdp"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -154,11 +118,85 @@ class MusicPage extends React.Component {
         </li>,
         <li>
           <a
-            href="https://soundcloud.com/blkgoldmusic/crwth-ultimate-blkgold-remix"
+            href="https://soundcloud.com/blkgoldmusic/sandbox"
             rel="noopener noreferrer"
             target="_blank"
           >
             <FontAwesomeIcon icon={faSoundcloud} size="3x" />
+          </a>
+        </li>,
+        <li>
+          <a
+            href="https://youtu.be/KePzJu_h-xI"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faYoutube} size="3x" />
+          </a>
+        </li>,
+      ],
+    });
+  }
+
+  handleModal4() {
+    this.setState({
+      show: !this.state.show,
+      modalTitle: "Under Control Remix",
+      modalCoverArt: CoverArt4,
+      infoContent: [
+        <li>
+          <a
+            href="https://soundcloud.com/blkgoldmusic/said-x-glitter-soda-under-control-blkgold-remix"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
+          </a>
+        </li>,
+        <li>
+          <a
+            href="https://youtu.be/TX1aGfhgjfA"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faYoutube} size="3x" />
+          </a>
+        </li>,
+      ],
+    });
+  }
+
+  handleModal5() {
+    this.setState({
+      show: !this.state.show,
+      modalTitle: "Doomsday",
+      modalCoverArt: CoverArt5,
+      infoContent: [
+        <li>
+          <a
+            href="https://open.spotify.com/track/4WNIDIHKryqhHVmmfd63ON?si=52636c6c0c3541a6"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faSpotify} size="3x" />
+          </a>
+        </li>,
+        <li>
+          <a
+            href="https://soundcloud.com/blkgoldmusic/doomsday"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
+          </a>
+        </li>,
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=QFqs9gobuvs&list=OLAK5uy_mTK9qI2-xUWGTQavoIjdR213Fh1ujUQho"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon icon={faYoutube} size="3x" />
           </a>
         </li>,
       ],
@@ -176,23 +214,23 @@ class MusicPage extends React.Component {
           <Row>
             <Col
               onClick={() => {
-                this.handleModal1();
+                this.handleModal5();
               }}
               sm={12}
               md={4}
               className="coverArt"
             >
-              <img src={CoverArt1} alt="Cover Art" />;
+              <img src={CoverArt5} alt="Cover Art" />;
             </Col>
             <Col
               onClick={() => {
-                this.handleModal2();
+                this.handleModal4();
               }}
               sm={12}
               md={4}
               className="coverArt"
             >
-              <img src={CoverArt2} alt="Cover Art" />;
+              <img src={CoverArt4} alt="Cover Art" />;
             </Col>
             <Col
               onClick={() => {
@@ -210,15 +248,23 @@ class MusicPage extends React.Component {
           <Row>
             <Col
               onClick={() => {
-                this.handleModal4();
+                this.handleModal2();
               }}
               sm={12}
               md={6}
-              lg={8}
-              xl={12}
               className="coverArt"
             >
-              <img src={CoverArt4} alt="Cover Art" />;
+              <img src={CoverArt2} alt="Cover Art" />;
+            </Col>
+            <Col
+              onClick={() => {
+                this.handleModal1();
+              }}
+              sm={12}
+              md={6}
+              className="coverArt"
+            >
+              <img src={CoverArt1} alt="Cover Art" />;
             </Col>
           </Row>
         </Container>
