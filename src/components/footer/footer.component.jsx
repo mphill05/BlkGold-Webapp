@@ -23,12 +23,6 @@ class Footer extends React.Component {
     },
   };
 
-  componentDidMount() {
-    fetch("http://localhost:9000")
-      .then((response) => response.json())
-      .then(console.log);
-  }
-
   render() {
     const { subscribe } = this.state;
 
@@ -109,7 +103,7 @@ class Footer extends React.Component {
           </li>
           <li>
             <a
-              href="https://discord.gg/96Ktkq6EBp"
+              href="https://discord.gg/BN3BJVsUcK"
               rel="noopener noreferrer"
               target="_blank"
             >

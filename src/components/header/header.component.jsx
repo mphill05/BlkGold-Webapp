@@ -48,7 +48,7 @@ function Header() {
                     <li><a href="http://twitter.com/blkgoldmusic" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a></li>
                     <li><a href="http://facebook.com/blkgoldmusic" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a></li>
                     <li><a href="http://twitch.com/blkgoldtv" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faTwitch} /></a></li>
-                    <li><a href="https://discord.gg/96Ktkq6EBp" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faDiscord} /></a></li>
+                    <li><a href="https://discord.gg/BN3BJVsUcK" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faDiscord} /></a></li>
                 </ul>
             </Navbar.Collapse>
         </Navbar>
