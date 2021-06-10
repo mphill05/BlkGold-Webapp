@@ -58,6 +58,15 @@ hr {
   height: auto;
 }
 
+.my-modal{
+  border-color: #d4af37;
+}
+
+.modal-content {
+  background-color: black;
+  color: #d4af37;
+}
+
 .modalButton {
   background-color: white;
   border: none;
@@ -81,7 +90,7 @@ hr {
 }
 
 .modalBody img {
-  height: 100%;
+  height: 65vh;
   width: 100%;
 }
 
