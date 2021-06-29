@@ -10,6 +10,7 @@ import { createBrowserHistory } from 'history';
 import HomePage from "./pages/homepage/homepage.component";
 import MusicPage from "./pages/music/music.component";
 import VideoPage from "./pages/video/video.component";
+import ContactPage from "./pages/contact/contact.component";
 import StorePage from "./pages/store/store.component";
 import Header from "./components/header/header.component";
 import Footer from "./components/footer/footer.component";
@@ -34,6 +35,7 @@ history.listen(location => {
           <Route exact path="/" component={HomePage} />
           <Route path="/music" component={MusicPage} />
           <Route path="/video" component={VideoPage} />
+          <Route path="/contact" component={ContactPage} />
           <Route path="/store" component={StorePage} />
         </Switch>
         <Footer />

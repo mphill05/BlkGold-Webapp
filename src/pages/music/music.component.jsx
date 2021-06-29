@@ -48,7 +48,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSpotify} size="3x" />
+            <FontAwesomeIcon icon={faSpotify} size="2x" />
           </a>
         </li>,
         <li>
@@ -57,7 +57,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
+            <FontAwesomeIcon icon={faSoundcloud} size="2x" />
           </a>
         </li>,
       ],
@@ -76,7 +76,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSpotify} size="3x" />
+            <FontAwesomeIcon icon={faSpotify} size="2x" />
           </a>
         </li>,
         <li>
@@ -85,7 +85,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
+            <FontAwesomeIcon icon={faSoundcloud} size="2x" />
           </a>
         </li>,
         <li>
@@ -94,7 +94,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faBandcamp} size="3x" />
+            <FontAwesomeIcon icon={faBandcamp} size="2x" />
           </a>
         </li>,
       ],
@@ -113,7 +113,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSpotify} size="3x" />
+            <FontAwesomeIcon icon={faSpotify} size="2x" />
           </a>
         </li>,
         <li>
@@ -122,7 +122,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
+            <FontAwesomeIcon icon={faSoundcloud} size="2x" />
           </a>
         </li>,
         <li>
@@ -131,7 +131,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faYoutube} size="3x" />
+            <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
         </li>,
       ],
@@ -150,7 +150,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
+            <FontAwesomeIcon icon={faSoundcloud} size="2x" />
           </a>
         </li>,
         <li>
@@ -159,7 +159,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faYoutube} size="3x" />
+            <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
         </li>,
       ],
@@ -178,7 +178,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSpotify} size="3x" />
+            <FontAwesomeIcon icon={faSpotify} size="2x" />
           </a>
         </li>,
         <li>
@@ -187,7 +187,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faSoundcloud} size="3x" />
+            <FontAwesomeIcon icon={faSoundcloud} size="2x" />
           </a>
         </li>,
         <li>
@@ -196,7 +196,7 @@ class MusicPage extends React.Component {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faYoutube} size="3x" />
+            <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
         </li>,
       ],

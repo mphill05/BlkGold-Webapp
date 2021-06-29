@@ -40,6 +40,11 @@ function Header() {
             </Link>
                 </Nav.Link>
                 <Nav.Link className='options'>
+                    <Link className='option' to='/contact'>
+                        Contact
+            </Link>
+                </Nav.Link>
+                <Nav.Link className='options'>
                     <Link className='option' to='/store'>
                         Store
             </Link>

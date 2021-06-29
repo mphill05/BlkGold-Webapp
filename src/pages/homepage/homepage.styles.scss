@@ -33,8 +33,12 @@ iframe {
 
 @media only screen and (max-width: 700px) {
   .homeContainer {
-    width: 95%;
+    width: 100%;
     padding-top: 150px;
+  }
+
+  iframe {
+    width: 100%;
   }
 
   .mainPageCoverArt {
