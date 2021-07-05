@@ -26,7 +26,6 @@ history.listen(location => {
   ReactGA.pageview(location.pathname); // Record a pageview for the given page
 });
 
-
   return (
     <div className="container">
       <Container fluid>
