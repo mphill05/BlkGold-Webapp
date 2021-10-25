@@ -28,7 +28,7 @@ class MusicPage extends React.Component {
   }
 
   defaultModal() {
-    this.setState({
+    this.state({
       show: false,
       modalTitle: "",
       coverArt: "",
